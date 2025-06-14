@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Jonathan Antonio Sagastume Morales</h1>
+  <h2>jony10228</h2>
+
+  <a href="https://github.com/jony10228?tab=repositories" target="_blank">
+    Ver mis repositorios en GitHub
+  </a>
+
+  <h3>Formulario de Datos</h3>
+  <form id="formulario">
+    <label>Nombre: <input type="text" id="nombre" required></label><br>
+    <label>Apellidos: <input type="text" id="apellidos" required></label><br>
+    <label>Año de nacimiento: <input type="number" id="anio" required></label><br>
+    <label>Mes de nacimiento: <input type="number" id="mes" min="1" max="12" required></label><br><br>
+    <button type="submit">Guardar</button>
+  </form>
+ <div id="resultado"></div>
+
+  <script src="https://unpkg.com/dexie@3.2.2/dist/dexie.min.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
